@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Your To-Do list!</h1>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add a item</h2>
+          <form id="new-list">
+            <div class="form-group">
+              <label for="toDo">What to do</label>
+              <input type="text" class="form-control" id="toDo">
+            </div>
+
+            <button type="submit" class="btn">Add</button>
+          </form>
+        </div>
+
+        <div class="col-md-6">
+          <h2>To Do List</h2>
+          <form id="toDoList">
+          <ul id="toDos">
+
+          </ul>
+          <button type="submit" class="btn-danger">Remove</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
